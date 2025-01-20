@@ -1,4 +1,5 @@
 # HubSpot MCP Server
+[![smithery badge](https://smithery.ai/badge/mcp-hubspot)](https://smithery.ai/server/mcp-hubspot/prod)
 
 ## Overview
 
@@ -185,6 +186,14 @@ To publish the Docker image for multiple platforms, you can use the `docker buil
 
 
 ## Usage with Claude Desktop
+
+### Installing via Smithery
+
+To install mcp-hubspot for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-hubspot/prod):
+
+```bash
+npx -y @smithery/cli@latest install mcp-hubspot --client claude
+```
 
 ### Docker Usage
 ```json
